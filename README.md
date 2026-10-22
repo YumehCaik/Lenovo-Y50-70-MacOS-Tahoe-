@@ -5,6 +5,24 @@
 that every Y50 configuration will boot.
 Keep a working USB bootloader and a private backup before making changes.
 
+## Hardware
+
+This EFI is shared for the following Lenovo Y50-70 configuration:
+
+| Component | Hardware |
+| --- | --- |
+| Laptop | Lenovo Y50-70 |
+| CPU | Intel Core i7-4710HQ, 2.50 GHz (4 cores / 8 threads) |
+| Integrated graphics | Intel HD Graphics 4600 |
+| Memory | 16 GB DDR3-1600 (2 × 8 GB) |
+| Internal display | 1920 × 1080 |
+| Storage | 512 GB drive |
+| Wi-Fi | Intel wireless card (PCI `8086:08B2`), using AirportItlwm |
+
+**This configuration uses an Intel Wi-Fi card.** Other wireless cards or Y50-70
+hardware variants may require different kexts and settings. Graphics acceleration
+works after applying the patch with `EFI.zip`; sound does not work.
+
 ## Downloads
 
 - **[EFI.zip](EFI.zip)** — current internal EFI snapshot, October 22, 2026.
