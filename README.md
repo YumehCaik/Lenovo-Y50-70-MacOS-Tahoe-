@@ -1,12 +1,14 @@
 # Lenovo Y50-70 — macOS Tahoe EFI
 
-**Experimental. Display acceleration is not working in this setup.** These files
-are shared as-is, not as a promise that every Y50 configuration will boot.
+**Experimental. Display acceleration works after applying the patch when using
+`EFI.zip`. Sound does not work.** These files are shared as-is, not as a promise
+that every Y50 configuration will boot.
 Keep a working USB bootloader and a private backup before making changes.
 
 ## Downloads
 
 - **[EFI.zip](EFI.zip)** — current internal EFI snapshot, October 22, 2026.
+  Display acceleration works after applying the patch; sound does not work.
   SMBIOS model: `MacBookPro14,3`.
 - **[EFI-pre-patch.zip](EFI-pre-patch.zip)** — the repository's previous EFI,
   renamed and privacy-sanitized. Its original settings and `MacBookPro11,5`
